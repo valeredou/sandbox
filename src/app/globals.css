@@ -25,3 +25,30 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.conteneur1 {
+  background-color: red;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteneur2 {
+  height: 500px;
+}
+
+h1 {
+  flex: 1;
+  padding-top: 100px;
+}
+
+button {
+  background: white;
+  color: black;
+  border-radius: 10px;
+  padding: 10px 10px;
+  width: 300px;
+  font-weight: bold;
+}
